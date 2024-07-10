@@ -1,0 +1,9 @@
+langchain-core
+streamlit
+langchain
+Huggingface
+fastapi
+uvicorn
+langserve
+sentencepiece
+accelerate

@@ -7,3 +7,4 @@ uvicorn
 langserve
 sentencepiece
 accelerate
+langchain_huggingface

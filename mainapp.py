@@ -71,10 +71,6 @@ add_routes(
     path="/home"
 )
 
-# # # Run the FastAPI app
-# if __name__ == "__main__":
-#     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
-
 @app.post("/home/invoke")
 async def invoke(request: Request):
     data = await request.json()
